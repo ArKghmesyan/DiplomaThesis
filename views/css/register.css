@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 800px;
+    font-family: 'Oswald', sans-serif;
+}
+h1 > span {
+    color: yellow;
+}
+
+.reset-this {
+    all: initial;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.redo-fieldset {
+    border: 1px solid yellow;
+    padding : 10px;
+
+}
+
+.redo-legend {
+    color: #000;
+
+}
+input {
+    width: 90%;
+
+}
